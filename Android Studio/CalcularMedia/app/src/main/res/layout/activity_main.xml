@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtValores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite os valores (ex: 10,20,30)" />
+
+    <EditText
+        android:id="@+id/edtPesos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite os pesos (opcional para ponderada)" />
+
+    <Spinner
+        android:id="@+id/spinnerTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Média"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado aparecerá aqui"
+        android:textSize="18sp"
+        android:paddingTop="16dp" />
+</LinearLayout>
